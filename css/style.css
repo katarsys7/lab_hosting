@@ -1,0 +1,85 @@
+body{
+    margin:0px;
+    padding:0px
+}
+.header{
+    margin-left:130px;
+    margin-top:68px;
+    width: 1040px;
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+    z-index: 999;
+    position:sticky;
+}
+.invite {
+}
+.invite__logo {
+    width: 109px;
+    height: 36px;
+}
+.invite__imgcenter {
+
+}
+.invite__text {
+    color: #415167;
+    font-family: Montserrat;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    width: 486px;
+    height: 200px;
+    position:absolute;
+    left:145px;
+    top:507px;
+    z-index: 999;;
+}
+.invite__backgoundtext {
+}
+.navigation {
+    width: 328px;
+    height: 768px;
+    background: #415167;    
+}
+.navigation__cart {
+    width: 24px;
+    height: 24px;
+}
+.navigation__quantity {
+    width: 20px;
+    height: 20px;
+    margin-left:-12px;
+    position:relative;
+    bottom:11px;
+}
+.navigation__menu {
+    list-style: none;
+    color: #EDF0F5;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left:56px;
+    margin-top: 230px;
+}
+.navigation__menuitem {
+    margin-top:30px;
+}
+.navigation__menuitem_active {
+}
+p{
+    margin: 0;
+    padding: 0;
+    background: #C7A17A;
+}
+.second_part{
+    position:absolute;
+    left:360px;
+    top:0px;
+    display:flex;
+    flex-direction: row;
+}
+.navigation__menuitem:hover{
+    font-weight: 700;
+}
